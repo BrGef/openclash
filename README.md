@@ -1,2 +1,2 @@
 # openclash
-openclash配置
+openclash的yaml配置

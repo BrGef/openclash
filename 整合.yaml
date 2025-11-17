@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   一块:
-    url: "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=db8a1b915bb97eac8768a2a9921c006c"
+    url: ""
     type: http
     interval: 86400
     health-check:
@@ -13,7 +13,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
 #  Nano云:
-#    url: "https://47.238.198.94/iv/verify_mode.htm?token=5ee9e326fa54a5178e80b26dffc3a038"
+#    url: ""
 #    type: http
 #    interval: 86400
 #    health-check:
@@ -22,7 +22,7 @@ proxy-providers:
 #      interval: 300
 #    proxy: 直连
   墙墙:
-    url: "https://appi.xn--fjq92b69oa1913e.com/api/v1/60793c693f68e8aa1d8b507c7f2fa5b9"
+    url: ""
     type: http
     interval: 86400
     health-check:

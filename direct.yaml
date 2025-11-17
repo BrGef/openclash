@@ -1,4 +1,5 @@
 payload:
+  - '+.hm'
   - '+.baidu.com'
   - '+.163.com'
   - '+.126.com'
@@ -19,4 +20,5 @@ payload:
 #通配符 .
 #通配符 . 可以一次性匹配多个级别
 #.baidu.com 匹配 tieba.baidu.com 和 123.tieba.baidu.com, 但不能匹配 baidu.com
+
 #通配符 . 只能用于域名前缀匹配

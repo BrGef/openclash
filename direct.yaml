@@ -1,10 +1,9 @@
-payload:
-  - '+.hm'
-  - '+.baidu.com'
-  - '+.163.com'
-  - '+.126.com'
-  - '+.toiletmc.net'
-  - '+.mclink.top'
+- "+.hm"
+- "+.baidu.com"
+- "+.163.com"
+- "+.126.com"
+- "+.toiletmc.net"
+- "+.mclink.top"
 
 
 #通配符 *
@@ -22,3 +21,4 @@ payload:
 #.baidu.com 匹配 tieba.baidu.com 和 123.tieba.baidu.com, 但不能匹配 baidu.com
 
 #通配符 . 只能用于域名前缀匹配
+

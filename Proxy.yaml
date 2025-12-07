@@ -1,6 +1,6 @@
 payload:
  - "+.obsproject.com"
-
+ - "+.mclink.top"
 
 #通配符 *
 #Clash 的通配符 * 一次只能匹配一级域名
@@ -17,6 +17,7 @@ payload:
 #.baidu.com 匹配 tieba.baidu.com 和 123.tieba.baidu.com, 但不能匹配 baidu.com
 
 #通配符 . 只能用于域名前缀匹配
+
 
 
 

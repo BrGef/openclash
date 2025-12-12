@@ -1,1 +1,33 @@
+IP-CIDR,114.114.114.114/32
+IP-CIDR,113.219.237.121/32
+DOMAIN-SUFFIX,ip138.com
+DOMAIN-SUFFIX,frp-fun.com
+DOMAIN-SUFFIX,natfrp-api.globalslb.net
 
+#  DOMAIN-SUFFIX,google.com,Proxy  #匹配域名后缀(交由Proxy代理服务器组)
+#	 DOMAIN,google.com,REJECT  #匹配域名(拒绝)
+#	 DOMAIN-KEYWORD,google,Proxy  #匹配域名关键字(交由Proxy代理服务器组)
+#	
+#	 IP-CIDR,127.0.0.0/8,DIRECT  #匹配数据目标IP(直连)
+#	 SRC-IP-CIDR,192.168.1.201/32,direct-wan1  #匹配数据发起IP(走WAN1口直连)
+#	
+#	 DST-PORT,80,DIRECT  #匹配数据目标端口(直连)（114-514/810-1919,65530）
+#	 SRC-PORT,7777,DIRECT  #匹配数据源端口(直连)
+#	
+#	 NETWORK,udp,DIRECT  #网络协议匹配
+#	 DSCP,4,DIRECT  #DSCP标记匹配 (仅限 tproxy udp 入站)
+#	
+#	 AND,((DOMAIN,baidu.com),(NETWORK,UDP)),DIRECT  #同时满足要求匹配
+#	 OR,((NETWORK,UDP),(DOMAIN,baidu.com)),REJECT  #满足任意要求匹配
+#	 NOT,((DOMAIN,baidu.com)),PROXY  #不匹配 baidu.com 的域名(交由Proxy代理服务器组)
+#	
+#	 RULE-SET,youtube,proxy  #规则集匹配
+#	 GEOSITE,youtube,PROXY  #GEOSITE数据库匹配
+#	 GEOIP,CN,DIRECT  #GEOIP数据库匹配
+#	 IP-ASN,13335,DIRECT  #目标ASN匹配(ASN数据库)
+#	 IN-TYPE,SOCKS/HTTP,PROXY
+#	 PROCESS-NAME,chrome.exe,PROXY
+#	
+#	 SUB-RULE,(NETWORK,tcp),sub-rule  #子规则匹配
+#	
+#	 MATCH,auto
